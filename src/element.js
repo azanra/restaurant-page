@@ -6,4 +6,9 @@ class Element {
     newElement.textContent = attribute.elementTextContent;
     parentElement.append(newElement);
   }
+  static setMultipleAttribute(element, attribute) {
+    for (const key in attribute) {
+      element.setAttribute(key, attribute[key]);
+    }
+  }
 }
