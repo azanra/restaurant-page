@@ -11,4 +11,9 @@ class Element {
       element.setAttribute(key, attribute[key]);
     }
   }
+  static setTextContent(element, elementTextContent) {
+    if (elementTextContent) {
+      element.textContent = elementTextContent;
+    }
+  }
 }
