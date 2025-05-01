@@ -1,4 +1,6 @@
 import Ramen from "../assets/ramen.jpeg";
+import Kare from "../assets/food.png";
+import Onigirazu from "../assets/food_onigirazu.png";
 
 export const homeDomAttribute = [
   {
@@ -108,5 +110,204 @@ export const homeDomAttribute = [
     },
     textContent:
       "This is definitely a real location, Town Village, Street 071.",
+  },
+];
+
+export const menuDomAttribute = [
+  {
+    parentElement: "#content",
+    elementType: "div",
+    elementAttribute: {
+      class: "menuContent",
+    },
+  },
+  {
+    parentElement: ".menuContent",
+    elementType: "div",
+    elementAttribute: {
+      class: "contentHeader",
+    },
+  },
+  {
+    parentElement: ".contentHeader",
+    elementType: "h1",
+    elementAttribute: {
+      class: "header",
+    },
+    textContent: "Menu",
+  },
+  {
+    parentElement: ".menuContent",
+    elementType: "div",
+    elementAttribute: {
+      class: "menu",
+    },
+  },
+  {
+    parentElement: ".menu",
+    elementType: "div",
+    elementAttribute: {
+      id: "firstMenu",
+    },
+  },
+  {
+    parentElement: "#firstMenu",
+    elementType: "h2",
+    elementAttribute: {
+      class: "menuName",
+    },
+    textContent: "Ramen",
+  },
+  {
+    parentElement: "#firstMenu",
+    elementType: "div",
+    elementAttribute: {
+      id: "firstMenuBody",
+    },
+  },
+  {
+    parentElement: "#firstMenuBody",
+    elementType: "div",
+    elementAttribute: {
+      id: "firstMenuText",
+    },
+  },
+  {
+    parentElement: "#firstMenuText",
+    elementType: "p",
+    elementAttribute: {
+      class: "menuDesc",
+    },
+    textContent:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quos consequuntur numquam laborum eveniet ab esse nobis ad non, repellat facere vero fugiat deleniti tenetur qui minus magnam culpa autem.",
+  },
+
+  {
+    parentElement: "#firstMenuText",
+    elementType: "p",
+    elementAttribute: {
+      class: "menuPrice",
+    },
+    textContent: "$5.00",
+  },
+  {
+    parentElement: "#firstMenuBody",
+    elementType: "img",
+    elementAttribute: {
+      class: "menuImage",
+      src: Ramen,
+    },
+  },
+  ////////
+  {
+    parentElement: ".menu",
+    elementType: "div",
+    elementAttribute: {
+      id: "secondMenu",
+    },
+  },
+  {
+    parentElement: "#secondMenu",
+    elementType: "h2",
+    elementAttribute: {
+      class: "menuName",
+    },
+    textContent: "Kare",
+  },
+  {
+    parentElement: "#secondMenu",
+    elementType: "div",
+    elementAttribute: {
+      id: "secondMenuBody",
+    },
+  },
+  {
+    parentElement: "#secondMenuBody",
+    elementType: "div",
+    elementAttribute: {
+      id: "secondMenuText",
+    },
+  },
+  {
+    parentElement: "#secondMenuText",
+    elementType: "p",
+    elementAttribute: {
+      class: "menuDesc",
+    },
+    textContent:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quos consequuntur numquam laborum eveniet ab esse nobis ad non, repellat facere vero fugiat deleniti tenetur qui minus magnam culpa autem.",
+  },
+
+  {
+    parentElement: "#secondMenuText",
+    elementType: "p",
+    elementAttribute: {
+      class: "menuPrice",
+    },
+    textContent: "$4.00",
+  },
+  {
+    parentElement: "#secondMenuBody",
+    elementType: "img",
+    elementAttribute: {
+      class: "menuImage",
+      src: Kare,
+    },
+  },
+  /////////
+  {
+    parentElement: ".menu",
+    elementType: "div",
+    elementAttribute: {
+      id: "thirdMenu",
+    },
+  },
+  {
+    parentElement: "#thirdMenu",
+    elementType: "h2",
+    elementAttribute: {
+      class: "menuName",
+    },
+    textContent: "Onigirazu",
+  },
+  {
+    parentElement: "#thirdMenu",
+    elementType: "div",
+    elementAttribute: {
+      id: "thirdMenuBody",
+    },
+  },
+  {
+    parentElement: "#thirdMenuBody",
+    elementType: "div",
+    elementAttribute: {
+      id: "thirdMenuText",
+    },
+  },
+  {
+    parentElement: "#thirdMenuText",
+    elementType: "p",
+    elementAttribute: {
+      class: "menuDesc",
+    },
+    textContent:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quos consequuntur numquam laborum eveniet ab esse nobis ad non, repellat facere vero fugiat deleniti tenetur qui minus magnam culpa autem.",
+  },
+
+  {
+    parentElement: "#thirdMenuText",
+    elementType: "p",
+    elementAttribute: {
+      class: "menuPrice",
+    },
+    textContent: "$2.00",
+  },
+  {
+    parentElement: "#thirdMenuBody",
+    elementType: "img",
+    elementAttribute: {
+      class: "menuImage",
+      src: Onigirazu,
+    },
   },
 ];
