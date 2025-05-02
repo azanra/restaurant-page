@@ -1,3 +1,4 @@
+import { contact } from "./scripts/contact.js";
 import { home } from "./scripts/home.js";
 import { menu } from "./scripts/menu.js";
 
@@ -18,5 +19,13 @@ const menuButton = (function () {
   menuBtn.addEventListener("click", () => {
     content.replaceChildren();
     menu();
+  });
+})();
+
+const contactButton = (function () {
+  const contactBtn = document.querySelector("#contactBtn");
+  contactBtn.addEventListener("click", () => {
+    content.replaceChildren();
+    contact();
   });
 })();
