@@ -311,3 +311,59 @@ export const menuDomAttribute = [
     },
   },
 ];
+
+export const contactDomAttribute = [
+  {
+    parentElement: "#content",
+    elementType: "div",
+    elementAttribute: {
+      class: "contactContent",
+    },
+  },
+  {
+    parentElement: ".contactContent",
+    elementType: "div",
+    elementAttribute: {
+      class: "contentHeader",
+    },
+  },
+  {
+    parentElement: ".contentHeader",
+    elementType: "h1",
+    elementAttribute: {
+      class: "header",
+    },
+    textContent: "Contact Us",
+  },
+  {
+    parentElement: ".contactContent",
+    elementType: "div",
+    elementAttribute: {
+      class: "contactInfo",
+    },
+  },
+  {
+    parentElement: ".contactInfo",
+    elementType: "p",
+    elementAttribute: {
+      class: "name",
+    },
+    textContent: "owner",
+  },
+  {
+    parentElement: ".contactInfo",
+    elementType: "p",
+    elementAttribute: {
+      class: "phoneNumber",
+    },
+    textContent: "012-345-6789",
+  },
+  {
+    parentElement: ".contactInfo",
+    elementType: "p",
+    elementAttribute: {
+      class: "email",
+    },
+    textContent: "ownerEmail@email.com",
+  },
+];
