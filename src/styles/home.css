@@ -8,14 +8,24 @@ body {
   color: var(--text-color);
 }
 
-#content {
+#content,
+.contentHeader,
+.imgContainer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* #homeContent {
+#homeContent {
   width: 80%;
   border-radius: 25px;
   border: 1px solid var(--text-color);
-} */
+}
+
+.imgContainer > img {
+  border-radius: 50%;
+}
+
+.contentIntro {
+  text-align: center;
+}
