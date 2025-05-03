@@ -69,3 +69,16 @@ button {
   background-color: var(--bg-color);
   border-radius: 25px;
 }
+
+nav > button {
+  margin-right: 25px;
+}
+
+button:hover {
+  background-color: var(--text-color);
+  color: var(--bg-color);
+}
+
+button:active {
+  background-color: rgb(204, 146, 141);
+}
