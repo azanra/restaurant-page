@@ -26,11 +26,13 @@ h2 {
   align-items: center;
 }
 
-#homeContent {
+#homeContent,
+.menuContent {
   width: 80%;
 }
 
-#homeContent > div {
+#homeContent > div,
+.contentHeader {
   margin-bottom: 75px;
 }
 
@@ -40,10 +42,17 @@ h2 {
 
 .contentIntro,
 .contentHour,
-.contentLocation {
+.contentLocation,
+.menuContent {
   text-align: center;
 }
 
 .contentIntro > * {
+  margin-bottom: 50px;
+}
+
+#firstMenuText,
+.menuName,
+.menuImage {
   margin-bottom: 50px;
 }
