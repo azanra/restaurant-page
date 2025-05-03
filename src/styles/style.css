@@ -6,6 +6,7 @@
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
+  font-size: 18px;
 }
 
 p,
@@ -27,8 +28,6 @@ h2 {
 
 #homeContent {
   width: 80%;
-  border-radius: 25px;
-  border: 1px solid var(--text-color);
 }
 
 #homeContent > div {
@@ -39,7 +38,9 @@ h2 {
   border-radius: 50%;
 }
 
-.contentIntro {
+.contentIntro,
+.contentHour,
+.contentLocation {
   text-align: center;
 }
 
