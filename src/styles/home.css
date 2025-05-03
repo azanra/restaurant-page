@@ -8,6 +8,15 @@ body {
   color: var(--text-color);
 }
 
+p,
+h2 {
+  margin: 0;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
 #content,
 .contentHeader,
 .imgContainer {
@@ -22,10 +31,18 @@ body {
   border: 1px solid var(--text-color);
 }
 
+#homeContent > div {
+  margin-bottom: 75px;
+}
+
 .imgContainer > img {
   border-radius: 50%;
 }
 
 .contentIntro {
   text-align: center;
+}
+
+.contentIntro > * {
+  margin-bottom: 50px;
 }
