@@ -1,0 +1,21 @@
+:root {
+  --bg-color: rgba(234, 225, 211, 1);
+  --text-color: rgba(201, 45, 31, 1);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* #homeContent {
+  width: 80%;
+  border-radius: 25px;
+  border: 1px solid var(--text-color);
+} */
