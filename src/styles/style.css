@@ -1,12 +1,15 @@
 :root {
   --bg-color: rgba(234, 225, 211, 1);
   --text-color: rgba(201, 45, 31, 1);
+  --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
   font-size: 18px;
+  font-family: var(--system-ui);
 }
 
 p,
